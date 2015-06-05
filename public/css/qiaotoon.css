@@ -1,0 +1,95 @@
+/*  
+* @description: iyizhi 整站样式表  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-05-30
+*/
+
+body{
+	padding-top: 54px;
+	background: #EFF1F3;
+}
+
+/* 间距 */
+.mb20{
+	margin-bottom: 20px;
+}
+.mt20{
+	margin-top: 20px;
+}
+
+/* 头部样式 */
+.header .navbar-bg{
+	background: #39424E;
+	border-bottom: 3px solid #2EC866;
+	border-radius: 0px;
+}
+.header .navbar-bg a{
+	color: #ffffff;
+}
+.header .navbar-bg .nav li.active a{
+	background: #232931;
+	color: #2EC866;
+}
+.header .navbar-bg a:hover{
+	background: none;
+	color: #2EC866;
+}
+.header .header-top .logo{
+	line-height: 80px;
+	font-size: 30px;
+}
+
+/* banner */
+.banner{
+	height: 275px;
+	background: #39424E url("https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/static/hrw/hrw-hero.jpg") repeat scroll 0% 0% / cover
+}
+.banner h3{
+	color: #ffffff;
+	margin-top: 120px;
+}
+.banner h4{
+	color: #ffffff;
+}
+
+/* 列表 */
+.m-list .item{
+	background: #ffffff;
+	height: 300px;
+	/* box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.03); */
+}
+.m-list .item:hover{
+	box-shadow: 0px 3px 2px rgba(46, 200, 102, 0.3); 
+}
+.m-list .item .info{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.m-list .item .info h5{
+	margin-bottom: 15px;
+}
+.m-list .item .info h5 a{
+	color: #333;
+	font-weight: bold;
+}
+.m-list .item .info p{
+	font-size: 12px;
+}
+
+/* 列表2 */
+.m-list2 a,.m-list2 a:hover{
+	color: #39424E;
+}
+
+/* 底部样式 */
+.footer{
+	background: #39424E;
+	color: #ffffff;
+	height: 40px;
+}
+.footer p{
+	line-height: 40px;
+	margin-bottom: 0px;
+	font-size: 12px;
+}
